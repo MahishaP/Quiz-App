@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: radial-gradient(hsl(189, 67%, 47%),hsl(216, 95%, 34%));
+}

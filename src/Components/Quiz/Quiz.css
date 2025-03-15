@@ -1,0 +1,76 @@
+.container {
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container h1 {
+    text-align: center;
+    color:hsl(0, 0%, 15%);
+    font-size: 40px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background-color: hsl(0, 0%, 35%);
+}
+
+.container h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid hsl(0, 0%, 25%);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.container button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background-color: hsl(240, 60%, 40%);
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct{
+    background: hsl(128, 85%, 30%);
+    border-color: hsl(128, 50%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container .wrong {
+    background: hsl(0, 85%, 30%);
+    border-color: hsl(0, 50%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+.container .resetbtn {
+    background-color: hsl(0, 100%, 35%);
+}
